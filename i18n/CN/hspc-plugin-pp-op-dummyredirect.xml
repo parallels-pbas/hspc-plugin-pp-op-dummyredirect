@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<strings lang="cn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>title_dummyredirect_plugin</id>
+<c>Payment Plugins, DummyRedirect</c>
+<val>虚拟重定向信用卡插件</val>
+</string>
+
+</strings>

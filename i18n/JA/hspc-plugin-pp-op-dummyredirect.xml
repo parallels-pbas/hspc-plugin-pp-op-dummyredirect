@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<strings lang="ja" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>title_dummyredirect_plugin</id>
+<c>Payment Plugins, DummyRedirect</c>
+<val>ダミーリダイレクトクレジットカードプラグイン</val>
+</string>
+
+</strings>

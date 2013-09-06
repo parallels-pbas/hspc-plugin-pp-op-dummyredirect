@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>DummyRedirect Payment Plug-In Test Gate</title>
+	</head>
+	<body>
+		<form method = 'get' action = "{$notify_url}">
+			<input type="hidden" name="ammount" value="{$amount}">
+			<input type="hidden" name="ref_no" value="{$ref_no}">
+			<p>Send Notification to HSPc with result
+				<select name = 'result'>
+					<option value='Success'>Success</option>
+					<option value='Failure'>Failure</option>
+				</select>
+				<input type = 'submit' value = 'Send'>
+			</p>
+		</form>
+		<form method = 'get' action = "{$result_url}">
+			<input type="hidden" name="ammount" value="{$amount}">
+			<input type="hidden" name="ref_no" value="{$ref_no}">
+			<p>Go back to HSPc with result:
+				<select name = 'return'>
+					<option value='Success'>Success</option>
+					<option value='Failure'>Failure</option>
+				</select>
+				<input type = 'submit' value = 'Redirect'>
+			</p>
+		</form>
+	</body>
+</html>

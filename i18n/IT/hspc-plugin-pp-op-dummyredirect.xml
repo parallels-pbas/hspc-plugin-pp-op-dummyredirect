@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<strings lang="it" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>title_dummyredirect_plugin</id>
+<c>Payment Plugins, DummyRedirect</c>
+<val>Plugin di test del redirect della carta di credito</val>
+</string>
+
+</strings>
